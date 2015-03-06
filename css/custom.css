@@ -1,0 +1,136 @@
+/* Heading */
+
+h1 {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+h4{
+	font-size: 14pt;
+
+}
+h5 {
+
+}
+
+
+/*Body & Background */
+
+body {
+	background-color: white;
+}
+
+.section {
+	padding: 8rem 0rem 5rem;
+	text-align: center;
+	color: #088A85;
+	
+}
+
+#firstsection {
+	margin-top: 10rem;
+}
+
+/* Stats */
+
+.statbackground{
+	padding: 4rem 0rem 3rem;
+	text-align: center;
+	background-color: #088A85;
+	color: white;
+	border-radius: 4px;
+	opacity: 0.8
+
+}
+
+/*Comment*/
+
+.comment1 {
+	padding: 4rem 7rem 4rem 7rem;
+	text-align: left;
+
+}
+
+.comment2 p {
+	text-align: center;
+	font-size: 10pt;
+
+}
+
+
+/* List Button */
+
+.listbutton {
+	padding: 0rem 0rem 4rem;
+	text-align: center;
+}
+
+.button.button-primary {
+	background-color: #088A85;
+	color: white;
+	opacity: 0.8;
+}
+
+
+
+/* Tables */
+
+table {
+	max-width: 70%;
+	margin: 0% 15% 5rem;
+
+}
+
+th {
+	text-align: center;
+	color: #088A85;
+}
+
+
+td[td = 6] {
+	text-align: center;
+}
+
+.signature {
+	text-align: left;
+}
+
+.comment1 .homelist{
+	margin-left:10%;
+}
+
+.imageback {
+	background-color: black;
+	width: 100%;mar
+}
+
+
+.groupingtable li {
+	list-style: none;
+	text-align: left;
+	margin-left:20%;
+	margin-right: 20%;
+
+}
+
+@media (min-width: 400px) {
+	.groupingtable li 
+		{margin-left: 22.5%;
+		margin-right: 22.5%;
+		background-color: red;
+		}
+
+}
+
+/* Checks
+
+.container {
+	background-color: grey;
+}
+
+*/
+

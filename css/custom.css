@@ -16,7 +16,42 @@ h4{
 h5 {
 
 }
+/* Navigation */
 
+nav {
+	background-color: teal;
+	opacity: 0.8;
+	nav: fixed;
+	top: 0;
+	position: relative;
+	width: 100%;
+	max-width: 550px;
+
+
+
+}
+nav ul li {
+	display: inline;
+	margin: 0 0 0 0 ;
+}
+
+nav a {
+	text-decoration: none;
+	color: white;
+}
+
+nav a:hover {
+	text-decoration: none;
+
+}
+
+nav ul li {
+	text-align: center;
+}
+
+nav ul li a {
+	font-size: 14pt;
+}
 
 /*Body & Background */
 
@@ -25,7 +60,7 @@ body {
 }
 
 .section {
-	padding: 8rem 0rem 5rem;
+	padding: 10rem 0rem 5rem;
 	text-align: center;
 	color: #088A85;
 	
@@ -117,12 +152,16 @@ td[td = 6] {
 
 }
 
-@media (min-width: 400px) {
+@media(min-width: 550px) {
 	.groupingtable li 
 		{margin-left: 22.5%;
 		margin-right: 22.5%;
-		background-color: red;
 		}
+	.nav {
+		max-width: 960px;
+		position: fixed;
+
+	}
 
 }
 
